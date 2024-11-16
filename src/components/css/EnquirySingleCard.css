@@ -1,0 +1,103 @@
+/* General card styling */
+.enquiry-card {
+    border: 2px solid #6b7280;
+    border-radius: 0.5rem;
+    padding: 12px;
+    margin: 12px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    position: relative;
+}
+
+/* Status badge styling */
+.status-badge {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    color: #eae6e6;
+    padding: 4px 8px;
+    border-radius: 0.25rem;
+    font-size: 0.75rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+/* Customer info styling */
+.customer-info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.icon-user {
+    color: #002345;
+    font-size: 1.25rem;
+}
+
+.customer-name {
+    background-color: #002345;
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+}
+
+/* Enquiry type styling */
+.enquiry-type {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 12px;
+    color: #6b7280;
+}
+
+.icon-book {
+    color: #002d59;
+    font-size: 1.25rem;
+}
+
+.enquiry-type p {
+    font-size: 0.875rem;
+}
+
+/* Action icons styling */
+.action-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    margin-top: 12px;
+}
+
+.icon-action {
+    font-size: 1.25rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.icon-view {
+    color: #031243;
+}
+
+.icon-info {
+    color: #10b981;
+}
+
+.icon-download {
+    color: #051753;
+}
+
+.icon-edit {
+    color: #facc15;
+}
+
+.icon-delete {
+    color: #ef4444;
+}
+.icon-type {
+    color: #002d59; /* Adjust color as needed */
+    font-size: 1.25rem; /* Adjust size as needed */
+    margin-right: 8px; /* Space between icon and text */
+}

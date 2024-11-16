@@ -1,0 +1,53 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #343a40;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    font-family: 'Times New Roman', Times, serif; /* Changed to Times New Roman */
+}
+
+.nav_links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav_links li {
+    margin-right: 20px;
+}
+
+.nav_links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif; /* Changed to Times New Roman */
+}
+
+.nav_links a.active {
+    background-color: #495057;
+}
+
+/* Style for the enquiry list header */
+.enquiry-list-header {
+    flex: 0.5; /* Allow it to take the available space */
+    text-align: center; /* Center the text */
+    color: white; /* White color for better visibility */
+    font-size: 1.4rem; /* Smaller font size */
+    margin: 0; /* Remove default margin */
+    font-family: 'Times New Roman', Times, serif; /* Changed to Times New Roman */
+}
+
+.timer {
+    color: white;
+    font-size: 1.2rem;
+    margin-left: auto; /* Adjust positioning as needed */
+    padding-right: 20px; /* Add padding if necessary */
+    font-family: 'Times New Roman', Times, serif; /* Changed to Times New Roman */
+}

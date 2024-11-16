@@ -1,0 +1,99 @@
+/* General Body Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font */
+    background-color: #e9ecef; /* Slightly darker background for contrast */
+    margin: 0;
+}
+
+/* Header Styles */
+h2 {
+    text-align: center; /* Center the header */
+    margin-bottom: 20px; /* Space below the header */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5em; /* Larger font size */
+    color: #343a40; /* Darker color for better visibility */
+}
+
+/* Status Cards Container */
+.status-cards {
+    display: flex;
+    justify-content: center; /* Center cards horizontally */
+    flex-wrap: wrap; /* Allow cards to wrap onto multiple lines */
+    gap: 20px; /* Space between cards */
+    margin-top: 20px; /* Space above cards */
+}
+
+/* Card Styles */
+.status-card {
+    border: none; /* Remove border */
+    border-radius: 10px; /* More pronounced rounded corners */
+    padding: 20px; /* Padding inside the card */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Deeper shadow for depth */
+    width: 220px; /* Set a width for cards */
+    text-align: center; /* Center text inside cards */
+    transition: transform 0.2s, box-shadow 0.2s; /* Animation for hover effect */
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(220, 220, 220, 0.3)); /* Subtle gradient */
+}
+
+/* Card Hover Effect */
+.status-card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+/* Card Title Styles */
+.status-card h3 {
+    margin: 0 0 10px; /* Space below the status title */
+    font-size: 1.5em; /* Larger title */
+    color: #495057; /* Darker color for titles */
+}
+
+/* Count Text Styles */
+.status-card p {
+    margin: 0; /* Remove margin for paragraph */
+    font-size: 1.5em; /* Slightly larger font for count */
+    color: #212529; /* Darker color for count text */
+}
+
+/* Define specific colors for each status type */
+.status-new {
+    background-color: #ff6b6b; /* Soft red for New */
+}
+
+.status-pending {
+    background-color: #ffd93d; /* Bright yellow for Pending */
+}
+
+.status-completed {
+    background-color: #51cf66; /* Soft green for Completed */
+}
+
+/* Total Count Card Styles */
+.total-count-card {
+    background-color: #007bff; /* Blue for total count card */
+    color: white; /* Text color for total count card */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    width: 240px; /* Slightly wider for the total count card */
+    padding: 25px; /* Padding inside the card */
+    text-align: center; /* Center text inside card */
+}
+
+/* Total Count Font Styles */
+.total-count {
+    font-size: 2em; /* Larger font for total count */
+    color: #fff; /* White for better visibility */
+    margin-bottom: 10px; /* Space below total count */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .status-cards {
+        flex-direction: column; /* Stack cards on smaller screens */
+        align-items: center; /* Center cards */
+    }
+    
+    .status-card, .total-count-card {
+        width: 90%; /* Full width on small screens */
+    }
+}

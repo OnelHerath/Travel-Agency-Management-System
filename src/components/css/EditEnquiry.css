@@ -1,0 +1,97 @@
+/* Wrapper container */
+.edit-enquiry-container {
+  padding: 20px;
+}
+
+/* Title style */
+.edit-enquiry-title {
+  font-size: 24px;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #002d59;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Form container */
+.edit-enquiry-form {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #011222;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.9); /* White background with 10% transparency */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  box-sizing: border-box;
+}
+
+.edit-enquiry-form:hover {
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+/* Label style */
+.edit-enquiry-label {
+  font-size: 18px;
+  color: #4B5563;
+  font-weight: 600;
+  margin-bottom: 8px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Input field style */
+.edit-enquiry-input,
+.edit-enquiry-select {
+  border: 1px solid #D1D5DB;
+  padding: 12px;
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 5px;
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+/* Input focus effect */
+.edit-enquiry-input:focus,
+.edit-enquiry-select:focus {
+  outline: none;
+  border-color: #011120;
+  box-shadow: 0 0 5px rgba(0, 85, 167, 0.3);
+}
+
+/* Status select style */
+.edit-enquiry-select#status {
+  background-color: #0055a7;
+  color: white;
+  font-weight: bold;
+}
+
+/* Button style */ 
+.edit-enquiry-button {
+  padding: 12px;
+  background-color: #050381;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.edit-enquiry-button:hover {
+  background-color: #1a137e;
+  transform: translateY(-2px);
+}
+
+.edit-enquiry-button:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(5, 3, 129, 0.5);
+}

@@ -1,0 +1,37 @@
+.vertical-nav {
+    width: 150px; /* Set a fixed width for the navbar */
+    background-color: #f8f9fa; /* Light background color */
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.vertical-nav h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.vertical-nav ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+.vertical-nav li {
+    margin: 10px 0; /* Space between items */
+}
+
+.vertical-nav a {
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Text color */
+    font-size: 1.1em; /* Font size */
+    padding: 10px; /* Padding for click area */
+    display: block; /* Make links block-level for easier clicking */
+    border-radius: 4px; /* Rounded corners */
+}
+
+.vertical-nav a:hover {
+    background-color: #e2e6ea; /* Highlight on hover */
+}
+
+.logout {
+    margin-top: auto; /* Push logout button to the bottom */
+}

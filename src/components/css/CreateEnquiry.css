@@ -1,0 +1,89 @@
+.create-enquiry-container {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('https://cdn.wallpapersafari.com/78/25/JU9bGD.jpg'); /* Update this path */
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  min-height: 100vh; /* Set minimum height for the container */
+}
+
+.create-enquiry-form {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #061921;
+  border-radius: 0.75rem;
+  padding: 24px;
+  width: 100%;
+  max-width: 600px;
+  background-color: rgba(176, 199, 220, 0.9); /* Slightly transparent for better text visibility */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 16px;
+}
+
+
+.create-enquiry-title {
+  font-size: 2rem;
+  margin: 16px 0;
+  margin-top: 50px;
+  color: #333;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.create-enquiry-form {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #022736;
+  border-radius: 0.75rem;
+  padding: 24px;
+  width: 100%;
+  max-width: 600px;
+  background-color: #b0c7dc;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 16px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+.form-group label {
+  font-size: 1.125rem;
+  color: #4b5563;
+  margin-bottom: 8px;
+  display: block;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.form-group input,
+.form-group select {
+  border: 2px solid #d1d5db;
+  border-radius: 0.375rem;
+  padding: 8px 16px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.save-button {
+  padding: 12px 24px;
+  background-color: rgb(22, 5, 89);
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.save-button:hover {
+  background-color: #ec536d;
+}
+
+.save-button:active {
+  background-color: #dd5454;
+}

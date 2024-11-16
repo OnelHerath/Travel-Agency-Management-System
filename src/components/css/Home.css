@@ -1,0 +1,193 @@
+/* Home.css */
+body {
+    margin: 0; /* Remove default margin */
+    min-height: 100vh; /* Use min-height to ensure it stretches beyond the viewport height */
+    background-image: url('https://www.traveltrademaldives.com/assets/2023/01/33.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.full-page-background {
+    position: fixed; /* Fixes the div in place */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; /* Stretch it to fill the whole viewport */
+    background-image: url('https://cdn.wallpapersafari.com/78/25/JU9bGD.jpg'); /* Path to your image */
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    z-index: -1; /* Make sure it's behind other content */
+}
+
+
+/* Container styling */
+.container {
+    padding: 16px;
+   
+}
+
+
+/* Navbar spacing */
+.navbar-spacing {
+    padding-top: 10px;
+}
+
+/* Button styling */
+.view-toggle-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.toggle-button {
+    background-color: #120443;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Enquiry list header */
+.enquiry-list-header {
+    font-size: 2rem;
+    text-align: center;
+    margin: 16px 0;
+}
+
+/* Report download container */
+.report-download-container {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin: 16px 0;
+}
+
+.report-dropdown {
+    padding: 8px;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+
+.download-button {
+    background-color: #031140;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+    background-color: #050850;
+}
+
+/* Add enquiry button */
+.add-enquiry-icon {
+    color: #020a28;
+    font-size: 2rem;
+}
+
+/* Content container */
+.content-container {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+    width: 100%;
+    max-width: 96rem;
+}
+.contact-icons {
+    display: flex;
+    gap: 10px; /* Space between icons */
+    margin-top: 10px; /* Space above icons */
+}
+
+.icon-whatsapp {
+    font-size: 24px; /* Adjust size as needed */
+    color: #09f019; /* Change to your preferred color */
+    cursor: pointer; /* Indicate it's clickable */
+    transition: color 0.3s;
+}
+.contact-eicon {
+    font-size: 24px; /* Adjust size as needed */
+    color: #2d02a3; /* Change to your preferred color */
+    cursor: pointer; /* Indicate it's clickable */
+    transition: color 0.3s;
+}
+
+
+.contact-icon:hover {
+    color: #0056b3; /* Change color on hover */
+}
+
+/* Filters Container */
+.filters-container {
+    display: flex;
+    gap: 16px; /* Space between filters */
+    margin-bottom: 16px;
+    justify-content: flex-start; /* Align to the start */
+    overflow-x: auto; /* Allow horizontal scrolling if necessary */
+}
+
+/* Filters Container */
+.filters-container {
+    display: flex;
+    gap: 16px; /* Space between filters */
+    margin-bottom: 16px;
+    justify-content: flex-start; /* Align to the start */
+    overflow-x: auto; /* Allow horizontal scrolling if necessary */
+    background-color: #f1f1f1; /* Add a light background color */
+    padding: 16px; /* Add padding for better spacing */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+}
+
+.filters-container input,
+.filters-container select {
+    padding: 8px;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    min-width: 150px; /* Minimum width for consistency */
+    max-width: 200px; /* Maximum width to avoid overflow */
+}
+
+.filters-container input[type="date"] {
+    max-width: 220px; /* Wider for date inputs */
+}
+
+/* Search Container */
+.search-container {
+    position: relative;
+}
+
+.search-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888; /* Adjust color as needed */
+}
+
+.search-container input {
+    padding-left: 30px; /* Add padding to prevent overlap with the icon */
+}
+
+/* Input with icon */
+.input-with-icon {
+    position: relative;
+    display: inline-block;
+    margin-right: 10px; /* Add some space between input fields */
+}

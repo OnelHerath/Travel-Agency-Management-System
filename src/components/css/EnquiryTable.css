@@ -1,0 +1,215 @@
+
+
+.filter-toolbar {
+    margin-bottom: 10px; /* Space between filter toolbar and table */
+    display: flex;
+    flex-direction: column; /* Stack filters vertically */
+    gap: 6px;
+    width: 250px; /* Set a fixed width for the filters */
+    max-width: 100%; /* Ensure it doesn't exceed container */
+    background-color: #f9f9f9;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.filter-toolbar select,
+.filter-toolbar input {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    width: 100%; /* Make input and select take full width of the filter toolbar */
+}
+
+.filter-toggle {
+    background-color: #042e40;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    border: none;
+    font-size: 1rem;
+    width: 100%; /* Make toggle button take full width */
+}
+
+.filter-items {
+    display: flex;
+    flex-direction: column; /* Stack filters vertically */
+    gap: 8px; /* Ensure consistent spacing */
+}
+
+.filter-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 100%; /* Make each filter take full width of the filter toolbar */
+}
+
+.table-wrapper {
+    width: 120%;
+    max-width: 1400px; /* Match the max width of the filter toolbar */
+    overflow-x: auto;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    background-color: #ffffff;
+    margin-top: 6px; /* Space between filters and table */
+}
+
+.table th,
+.table td {
+    border: 1px solid #979797;
+    padding: 8px;
+    vertical-align: middle;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+/* Alternate row coloring */
+.table tr:nth-child(odd) td {
+    background-color: #f0f0f0; /* Light grey for odd rows */
+}
+
+.table tr:nth-child(even) td {
+    background-color: #ffffff; /* White for even rows */
+}
+
+/* Header styling */
+.table th {
+    background-color: #0e0221;
+    color: #ffffff;
+}
+
+/* Remove hover effect background color */
+.table tr:hover td {
+    background-color: inherit; /* Keep original background colors on hover */
+}
+
+.enquiry-description-header {
+    width: 800px;
+}
+
+.operations {
+    display: flex;
+    justify-content: space-between;
+    gap: 2px;
+}
+
+.icon {
+    cursor: pointer;
+    font-size: 0.5rem;
+}
+
+.icon-info {
+    color: #07a24a;
+}
+
+.icon-edit {
+    color: #ffc107;
+}
+
+.icon-delete {
+    color: #cd071a;
+}
+
+/* Status-specific styling */
+.status-new {
+    background-color: #f25959;
+}
+
+.status-pending {
+    background-color: #efac38;
+}
+
+.status-completed {
+    background-color: #05b379;
+}
+
+.download-buttons {
+    margin: 18px 0;
+}
+
+.download-button {
+    background-color: #032140;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.download-button:hover {
+    background-color: #0056b3;
+}
+
+.filter-overlay {
+    position: absolute; /* Position the filter overlay absolutely */
+    top: 50px; /* Adjust based on your layout */
+    left: 0;
+    right: 0; /* Make it stretch across */
+    background: white; /* Background color for visibility */
+    z-index: 10; /* Ensure it overlays other content */
+    padding: 10px; /* Add some padding */
+    border: 1px solid #ccc; /* Optional border */
+}
+
+.table-wrapper {
+    position: relative; /* Make the table wrapper relative for positioning */
+}
+
+.icon-whatsapp {
+    color: rgb(12, 196, 12); /* Change to the desired green color */
+}
+
+.icon-whatsapp:hover {
+    color: rgb(9, 201, 9); /* Optional: Change color on hover */
+}
+
+.enquiry-type-header {
+    width: 250px; /* Set your desired width */
+}
+
+.enquiry-type-button {
+    background-color: #031e3b; /* Bootstrap primary color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.enquiry-type-button:hover {
+    background-color: #031e3b; /* Darker shade on hover */
+}
+
+/* Container styling */
+.container {
+    padding: 16px;
+}
+
+/* Filter toolbar styling */
+.filter-toolbar {
+    margin-bottom: 16px;
+    padding: 16px;
+    background-color: #f9f9f9; /* Add a background color for visibility */
+    border-radius: 8px; /* Rounded corners for aesthetic */
+}
+
+/* Filter group layout */
+.filter-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px; /* Space between filters */
+}
+
+/* Table wrapper styling */
+.table-wrapper {
+    overflow-x: auto; /* Allow horizontal scrolling for tables */
+    margin-right: 30px;
+    margin-left: 30px;
+}

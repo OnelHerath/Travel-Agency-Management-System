@@ -1,0 +1,90 @@
+/* Side Menu Container */
+.side-menu-container {
+    display: flex;
+    height: 100vh;
+}
+
+/* Side Menu */
+.side-menu {
+    width: 200px;
+    background-color: #0077b6;
+    color: white;
+    transition: width 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    overflow: hidden;
+}
+
+/* Closed Menu */
+.side-menu.closed {
+    width: 60px; /* Narrow width when closed */
+}
+
+.menu-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Menu links */
+.menu-link {
+    padding: 10px 20px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-bottom: 10px;
+    background-color: #0096c7;
+    border-radius: 5px;
+    transition: background-color 0.2s ease;
+}
+
+.menu-link:hover {
+    background-color: #00b4d8;
+}
+
+.menu-spacer {
+    flex-grow: 1;
+}
+
+/* Toggle Button */
+.toggle-button {
+    position: absolute;
+    left: 200px;
+    top: 20px;
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: left 0.3s ease;
+}
+
+/* Adjust toggle button when menu is closed */
+.side-menu.closed + .toggle-button {
+    left: 60px;
+}
+
+/* Main Content */
+.content {
+    flex-grow: 1;
+    padding: 20px;
+}
+.submenu {
+    padding-left: 20px;
+}
+
+.submenu-link {
+    display: block;
+    padding: 10px 15px;
+    color: #333; /* Change as per your design */
+    text-decoration: none;
+}
+
+.submenu-link:hover {
+    background-color: #f0f0f0; /* Change as per your design */
+}
